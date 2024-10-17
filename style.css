@@ -1,0 +1,139 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('./images/backround/picture\ 1.png');
+    background-size: cover;
+    background-position: center;
+    color: #000000;
+}
+
+header {
+    background-color: rgba(58, 142, 57, 0.9);
+    color: #f6f6f6;
+    padding: 15px;
+    text-align: center;
+    position: relative;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+}
+
+header img {
+    width: 120px;
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    cursor: default;
+}
+
+nav {
+    margin-top: 10px;
+}
+
+nav a {
+    color: #fffefe;
+    margin: 0 20px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s, transform 0.2s;
+}
+
+nav a:hover {
+    color: #ffffff;
+    transform: scale(1.1);
+}
+
+h1, h2, h3 {
+    margin: 15px 0;
+}
+
+main {
+    padding: 30px;
+    background: rgba(255, 255, 255, 0.8);
+    border-radius: 15px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+.animals {
+    margin-top: 25px;
+}
+
+.animals ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.animals li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+}
+
+.animals img {
+    max-width: 100px;
+    border-radius: 5px;
+}
+
+.animals button {
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #3a8e39;
+    color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 5px;
+    cursor:pointer;
+    transition: background-color 0.3s;
+}
+
+.animals button:hover {
+    background-color: #2a6d29;
+}
+
+footer {
+    background-color: rgba(58, 142, 57, 0.9);
+    color: #ffffff;
+    text-align: center;
+    padding: 15px;
+    width: 100%;
+    box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.2);
+}
+
+footer a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+footer a:hover {
+    text-decoration: underline;
+    color: #ffffff;
+}
+
+.flex {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.animal-images img {
+    max-width: 300px;
+    margin: 10px;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact-form input, .contact-form textarea {
+    margin: 5px 0;
+    padding: 10px;
+    width: 300px;
+}
+
+  
+   
